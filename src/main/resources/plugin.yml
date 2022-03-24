@@ -1,0 +1,14 @@
+name: autoFish
+
+version: '${project.version}'
+api-version: '${plugin.api.version}'
+
+authors: [ YouKlike ]
+description: '${project.description}'
+permissions:
+  autoFish.use:
+    description: Allow automatic fishing.
+    default: op
+
+main: com.cookie.autoFish
+
